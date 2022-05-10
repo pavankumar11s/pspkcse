@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-df1=pd.read_csv(r"C:\Users\spk09\Desktop\h1.csv")
+df1=pd.read_csv("h1.csv")
 from sklearn.model_selection import train_test_split
 
 predictors = df1.drop("Target",axis=1)
